@@ -16,7 +16,7 @@ nachalo:
 		printf("Такого числа не существует! Попробуйте ещё.\n");
 		goto nachalo;
 	}
-	printf("Ряд Фиббоначчи: ");
+	printf("Ряд Фибоначчи: ");
 	if (number == 0) {
 		printf("%d\n", a1);
 		goto label;
