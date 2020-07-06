@@ -5,7 +5,7 @@
 параметр b-целое число, дополнительная переменная(нужна для расчёта).
 параметр number-целое число, порядковый номер искомого числа.*/
 void Print(int a1, int a2, int b, int number) {
-	printf("%d; %d ", a1, a2);
+	printf("%d; %d; ", a1, a2);
 	for (int i = 2; i <= number; i++)
 	{
 		printf("%d; ", a1 + a2);
